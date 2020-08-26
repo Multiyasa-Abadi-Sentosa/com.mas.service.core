@@ -17,7 +17,9 @@ namespace Com.DanLiris.Service.Core.Lib.Models
 
         public double? Rate { get; set; }
         
-        public string Description { get; set; }        
+        public string Description { get; set; }
+
+        public string COACodeCredit { get; set; }
 
         public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
         {
